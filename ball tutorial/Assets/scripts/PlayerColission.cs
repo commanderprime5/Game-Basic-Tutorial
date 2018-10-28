@@ -3,6 +3,7 @@
 public class PlayerColission : MonoBehaviour{
 
     public playerMovement movement;
+  
     
 
     void OnCollisionEnter (Collision collisionInfo)

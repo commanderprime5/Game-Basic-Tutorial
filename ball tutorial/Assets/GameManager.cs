@@ -1,10 +1,20 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
+    bool GameHasEnded = false;
+
     public void EndGame()
     {
-        Debug.Log("GAME OVER");
+        if(GameHasEnded==false)
+        {
+            GameHasEnded = true;
+            Debug.Log("GAME OVER");
+
+        }
+        
     }
+
+    
 }
